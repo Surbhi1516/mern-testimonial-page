@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className='app pt-2 bg-gray-100'>
+      <div className='app pt-2 bg-gray-200'>
         <h2 className='text-3xl my-2 font-semibold  md:text-4xl text-teal-600'>Testimonials</h2>
         <TestimonialCard data={testimonials} />
       </div>
@@ -31,13 +31,3 @@ function App() {
 export default App;
 
 
-// {
-//   "src": "logo192.png",
-//   "type": "image/png",
-//   "sizes": "192x192"
-// },
-// {
-//   "src": "logo512.png",
-//   "type": "image/png",
-//   "sizes": "512x512"
-// }

@@ -32,11 +32,11 @@ const TestimonialCard = ({ data }) => {
                 <div className=' flex flex-col items-center justify-center text-center p-2 my-2'>
                   <p className='text-xl md:text-2xl  font-medium text-teal-700'>{name}</p>
                   <p className='py-2 text-gray-500 text-sm lg:text-lg font-sans '>{designation}</p>
-
-                  <p className='pt-2 md:pt-4 italic text-base md:text-lg  font-light text-teal-900 mb-3'>{message}</p>
-                  <div className='text-center'>
-                    <p>{rating}</p>
+                  <div className=' relative p-1 flex items-center justify-center text-center'>
+                    <RiSingleQuotesL className='text-2xl text-gray-400 absolute left-0 top-0' /><p className='p-2 pb-1 md:pt-4 italic text-base md:text-lg  font-light text-teal-900 mb-3'>{message}</p><RiSingleQuotesR className='text-2xl text-gray-400 absolute right-0 bottom-3 ' />
                   </div>
+
+                  <Rating data={rating} />
                 </div>
               </div>
             </div>
